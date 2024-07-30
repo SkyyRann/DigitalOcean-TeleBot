@@ -31,7 +31,7 @@ def start(d: Message):
             callback_data='manage_droplets'
         ),
     )
-    t = f'Selamat Datang <b>{bot_name}</b>\n\n' \
+    t = f'Hallo Kak Selamat Datang <b>{bot_name}</b>\n\n' \
         'Anda dapat mengelola akun DigitalOcean, membuat instance, dll.\n\n' \
         'Perintah cepat:\n' \
         '/start - start bot\n' \
@@ -41,8 +41,8 @@ def start(d: Message):
         '/add_vps - create droplets\n' \
         '/sett_vps - manage droplets\n' \
         ' \n' \
-        '<b>Dev: @yha_bot</b>\n' \
-        '<b>Support: @fightertunnell</b>'
+        '<b>Dev: @SkyR4n</b>\n' \
+        '<b>Channel: @ChSkyRan</b>'
     bot.send_message(
         text=t,
         chat_id=d.from_user.id,
