@@ -326,7 +326,7 @@ def confirm_create(call: CallbackQuery, data: dict):
         text=f'{call.message.html_text}\n'
              f'kata sandi: <code>{password}</code>\n'
              f'IP： <code>{droplet.ip_address}</code>\n\n'
-             '<b>Penciptaan server selesai</b>',
+             '<b>Vps Berhasil Di Buat Oleh @SkyR4n</b>',
         chat_id=call.from_user.id,
         reply_markup=markup,
         message_id=call.message.message_id,
