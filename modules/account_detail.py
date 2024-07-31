@@ -13,7 +13,7 @@ from utils.db import AccountsDB
 
 def account_detail(call: CallbackQuery, data: dict):
     doc_id = data['doc_id'][0]
-    t = '<b>Informasi Akun</b>\n\n'
+    t = '<b>Informasi Akun Digitalocean</b>\n\n'
 
     account = AccountsDB().get(doc_id=doc_id)
 
