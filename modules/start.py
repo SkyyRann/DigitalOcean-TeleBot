@@ -32,7 +32,7 @@ def start(d: Message):
         ),
     )
     t = f'Hallo Kak Selamat Datang <b>{bot_name}</b>\n\n' \
-        'Anda dapat mengelola akun DigitalOcean, membuat instance, dll.\n\n' \
+        'Saya Adalah Bot Create VPS Digital Ocean Yang Dibuat Oleh SkyranX-Mods, Anda dapat mengelola akun DigitalOcean, membuat instance, dll.\n\n' \
         'Perintah cepat:\n' \
         '/start - start bot\n' \
         '/add_do - add account\n' \
